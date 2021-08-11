@@ -1,13 +1,13 @@
 # vim: set fileencoding=utf-8 :
 
-# #CTNRGLHUOA*IEZWNCTMSFRX
+# #CTNRGLHUOA*IEZWNCMTFSRJ
 KEYS = (
     '#',
     'C-', 'T-', 'N-', 'R-', 'G-', 'L-', 'H-', 'U-',
     'O-', 'A-',
     '*',
     '-I', '-E',
-    '-Z', '-W', '-N', '-C', '-T', '-M', '-S', '-F', '-R', '-X',
+    '-Z', '-W', '-N', '-C', '-M', '-T', '-F', '-S', '-R', '-J',
 )
 
 IMPLICIT_HYPHEN_KEYS = ('U-', 'O-', 'A-', '-I', '-E', '*', '-W')
@@ -26,8 +26,8 @@ NUMBERS = {
     'A-': '0-',
     '-Z': '-6',
     '-N': '-7',
-    '-T': '-8',
-    '-S': '-9',
+    '-M': '-8',
+    '-F': '-9',
 }
 
 UNDO_STROKE_STENO = '*'
@@ -58,12 +58,12 @@ KEYMAPS = {
         '-W'        : '-R',
         '-N'        : '-P',
         '-C'        : '-B',
-        '-T'        : '-L',
-        '-M'        : '-G',
-        '-S'        : '-T',
-        '-F'        : '-S',
+        '-M'        : '-L',
+        '-T'        : '-G',
+        '-F'        : '-T',
+        '-S'        : '-S',
         '-R'        : '-D',
-        '-X'        : '-Z',
+        '-J'        : '-Z',
         'no-op'     : ('Fn', 'pwr', 'res1', 'res2'),
     },
     'Keyboard': {
@@ -85,12 +85,12 @@ KEYMAPS = {
         '-W'        : 'j',
         '-N'        : 'i',
         '-C'        : 'k',
-        '-T'        : 'o',
-        '-M'        : 'l',
-        '-S'        : 'p',
-        '-F'        : ';',
+        '-M'        : 'o',
+        '-T'        : 'l',
+        '-F'        : 'p',
+        '-S'        : ';',
         '-R'        : '[',
-        '-X'        : '\'',
+        '-J'        : '\'',
         'arpeggiate': 'space',
         # Suppress adjacent keys to prevent miss-strokes.
         'no-op'     : ('z', 'x', 'b', ',', '.', '/', ']', '\\'),
