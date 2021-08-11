@@ -1,0 +1,3 @@
+include plover_vietneo/dictionaries/vietneo_main.json
+include plover_vietneo/dictionaries/vietneo_user.json
+include plover_vietneo/dictionaries/vietneo_commands.json
