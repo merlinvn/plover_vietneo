@@ -1,13 +1,13 @@
 # vim: set fileencoding=utf-8 :
 
-# #CTNRGLHUOA*IEZWNCMTFSRJ
+# #CTNRGLHUOA*IEZWNCMTFJRX
 KEYS = (
     '#',
     'C-', 'T-', 'N-', 'R-', 'G-', 'L-', 'H-', 'U-',
     'O-', 'A-',
     '*',
     '-I', '-E',
-    '-Z', '-W', '-N', '-C', '-M', '-T', '-F', '-S', '-R', '-J',
+    '-Z', '-W', '-N', '-C', '-M', '-T', '-F', '-J', '-R', '-X',
 )
 
 IMPLICIT_HYPHEN_KEYS = ('U-', 'O-', 'A-', '-I', '-E', '*', '-W')
@@ -61,9 +61,9 @@ KEYMAPS = {
         '-M'        : '-L',
         '-T'        : '-G',
         '-F'        : '-T',
-        '-S'        : '-S',
+        '-J'        : '-S',
         '-R'        : '-D',
-        '-J'        : '-Z',
+        '-X'        : '-Z',
         'no-op'     : ('Fn', 'pwr', 'res1', 'res2'),
     },
     'Keyboard': {
@@ -88,9 +88,9 @@ KEYMAPS = {
         '-M'        : 'o',
         '-T'        : 'l',
         '-F'        : 'p',
-        '-S'        : ';',
+        '-J'        : ';',
         '-R'        : '[',
-        '-J'        : '\'',
+        '-X'        : '\'',
         'arpeggiate': 'space',
         # Suppress adjacent keys to prevent miss-strokes.
         'no-op'     : ('z', 'x', 'b', ',', '.', '/', ']', '\\'),
