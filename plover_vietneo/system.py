@@ -98,4 +98,4 @@ KEYMAPS = {
 }
 
 DICTIONARIES_ROOT = 'asset:plover_vietneo:dictionaries'
-DEFAULT_DICTIONARIES = ('vietneo_user.json', 'vietneo_commands.json', 'vietneo_main.json')
+DEFAULT_DICTIONARIES = ('vietneo_user.json', 'vietneo_shorthand.json','vietneo_commands.json', 'vietneo_main.json')
