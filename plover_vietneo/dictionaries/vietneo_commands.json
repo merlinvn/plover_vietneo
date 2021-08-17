@@ -1,6 +1,7 @@
 {
 "340ED/KAPL": "{MODE:CAMEL}",
 "340ED/TAOEULT": "{MODE:TITLE}",
+"C-NF": "{^};",
 "CG-F": "\"{^}",
 "CG-J": "_",
 "CG-M": "'{^}",
@@ -25,6 +26,7 @@
 "EUPBTD": "{#Shift(tab)}",
 "GS*YJ": "{#control(BackSpace)}",
 "KRSUOEFZNP": "{^\n\n^}{-|}",
+"N-NF": "{^:}",
 "NG-CT": "{^!}{-|}",
 "NG-NM": "{.}",
 "NREJM": "{PLOVER:ADD_TRANSLATION}",
