@@ -10,7 +10,7 @@ KEYS = (
     '-R', '-X', '-F', '-J', '-N', '-C', '-M', '-T', '-Z', '-W',
 )
 
-IMPLICIT_HYPHEN_KEYS = ('U-', 'O-', 'A-', '-I', '-E', '*', '-W')
+IMPLICIT_HYPHEN_KEYS = ('U-', 'O-', 'A-', '-I', '-E', '*')
 #IMPLICIT_HYPHEN_KEYS = KEYS
 
 SUFFIX_KEYS = ()
