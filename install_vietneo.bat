@@ -1,0 +1,1 @@
+plover_console.exe -s plover_plugins install git+https://github.com/merlinvn/plover_vietneo
